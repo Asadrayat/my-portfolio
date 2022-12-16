@@ -1,0 +1,26 @@
+[
+  {
+    "picture": "https://i.ibb.co/dktH9TS/banner.jpg",
+    "title": "Sunshine-Logistic_service",
+    "client-code": "https://github.com/Asadrayat/sunshine-service",
+    "server-code": "https://github.com/Asadrayat/sunshine-server",
+    "live_link": "https://sunshine-server-a8c08.web.app/",
+    "about": "A transport service that comes up with the modernization.Lots functionalties used including backend Mongodb.Add service , add review ,booking service are the key methode used in this site.\r\n"
+  },
+  {
+    "picture": "https://i.ibb.co/18HnVYB/treatment.png",
+    "title": "Doctors_portal-Booking_service",
+    "client-code": "https://github.com/Asadrayat/Doctors_Portal",
+    "server-code": "https://github.com/Asadrayat/doctors-server",
+    "live_link": "https://doctors-portal-e8603.web.app/",
+    "about": "A user-friendly clinic service website. Users can make appointments with the dentist if appointments are available for this particular date & slots .Add feature also used to filter users and add a dentist. MongoDB, nodejs, react, multiple react packages, Ffirebase, daisyUi, and tailwind CSS are essential tools\r\n"
+  },
+  {
+    "picture": "https://i.ibb.co/h19w2Rd/why.jpg",
+    "title": "Recycle_Bin-Resale_service",
+    "client-code": "https://github.com/Asadrayat/recycle_furniture",
+    "server-code": "https://github.com/Asadrayat/recycle-furniture-server",
+    "live_link": "https://recycle-bin-8bc7a.web.app/",
+    "about": "User Manage and Login flow.Role Manage (User, buyer , Admin). Authentication and Authorization. Buyer can buy pre-owned furniture ,Seller can add product and sell it in prefered price ,Admin can handle buyer ,seller .User can book products, seller can sell products this requires lots of functional works and backened server loaded from mongodb\r\n"
+  }
+]
