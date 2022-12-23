@@ -3,7 +3,7 @@ import Particles from 'react-tsparticles';
 const Contact = () => {
     return (
         <div>
-            <div className="grid text-5xl text-slate-600 font-bold rounded-box place-items-center">Contact</div>
+            <div className="grid text-5xl text-light font-bold rounded-box place-items-center">Contact</div>
             <div className="divider "></div>
             <section className='py-16 my-20 ' style={{
                 background: `url(${Particles})`,

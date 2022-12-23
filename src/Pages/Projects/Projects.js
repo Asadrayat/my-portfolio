@@ -13,7 +13,7 @@ const Projects = () => {
     })
     return (
         <div className="my-10">
-            <div className="grid text-5xl text-slate-600 font-bold rounded-box place-items-center">Projects</div>
+            <div className="grid text-5xl text-light font-bold rounded-box place-items-center">Projects</div>
             <div className="divider "></div>
             <div className="flex flex-col lg:flex-row gap-10" >
                 {

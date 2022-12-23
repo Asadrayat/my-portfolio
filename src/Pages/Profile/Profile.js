@@ -5,7 +5,7 @@ const Profile = () => {
         <div className="hero">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="flex w-2/4 flex-col gap-10 flex-50-gt-sm waypoint animated slide-in-left">
-                    <img src={pic} className="rounded-full ring ring-primary ring-offset-base-100 ring-offset-2  " alt='' />
+                    <img src={pic} className="rounded-full ring ring-primary ring-offset-base-100 ring-offset-2   " alt='' />
                     <div>
                         <p className='text-3xl font-bold text-center'>Who's this guy?</p>
                         <p className=' font-semibold text-center text-normal '>I am a junior web developer from Chittagong.To achieve the best possible results by making all possible efforts with innovative knowledge and technical skills while keeping honesty and punctuality at a higher priority. </p>

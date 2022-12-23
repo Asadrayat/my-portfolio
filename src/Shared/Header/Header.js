@@ -1,11 +1,10 @@
 import React from 'react';
-import { AiFillHome } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -16,7 +15,7 @@ const Header = () => {
                             <Link to="/projects"><li><button className='btn btn-dark btn-outline'>Portfolio</button></li></Link>
                         </ul>
                     </div>
-                    <a href='/' className="btn btn-ghost animate-pulse text-orange-600 text-3xl normal-case font-bold "><AiFillHome></AiFillHome></a>
+                    <a href='/' className=" animate-pulse  text-3xl normal-case font-bold ">Rayat's Planet</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
