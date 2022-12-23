@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 import PrimeryButons from '../../Component/PrimeryButons';
 import About from '../About/About';
@@ -6,7 +7,7 @@ import Qualities from '../About/Qualites/Qualities';
 import Contact from '../Contact/Contact';
 import Profile from '../Profile/Profile';
 import Projects from '../Projects/Projects';
-
+import { AiOutlineArrowDown } from "react-icons/ai";
 const Home = () => {
 
     return (
@@ -26,6 +27,7 @@ const Home = () => {
                         </h1>
 
                         <a href="resume.pdf" download="resume.pdf"><PrimeryButons>Get Resume</PrimeryButons></a>
+                        <Link to="/profile"><div className='animate-bounce text-5xl font-bold mb-10 text-pink-600 for'><AiOutlineArrowDown></AiOutlineArrowDown></div></Link>
 
                     </div>
                 </div>

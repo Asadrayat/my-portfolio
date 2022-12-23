@@ -6,7 +6,7 @@ const Projects = () => {
     const { data: projectDatas } = useQuery({
         queryKey: ['projectdatas'],
         queryFn: async () => {
-            const res = await fetch('https://my-portfolio-server-nine-lilac.vercel.app')
+            const res = await fetch('https://my-portfolio-server-nine-lilac.vercel.app/projects')
             const data = await res.json();
             return data;
         }

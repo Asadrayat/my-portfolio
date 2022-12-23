@@ -31,7 +31,7 @@ export const router = createBrowserRouter([
             {
                 path: '/projects/:id',
                 element: <Checkout></Checkout>,
-                loader: ({ params }) => fetch(`https://my-portfolio-server-nine-lilac.vercel.app/${params.id}`)
+                loader: ({ params }) => fetch(`https://my-portfolio-server-nine-lilac.vercel.app/projects/${params.id}`)
             },
             {
                 path: "/about",
